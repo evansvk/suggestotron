@@ -1,3 +1,33 @@
 // Place all the styles related to the topics controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.button_to input{
+
+background-color: green;
+&:hover{
+height: 30px;
+width: 30px;
+color: white;
+cursor: pointer;
+
+ 	}
+ 	&[value="-1"]{
+ 	background-color: red;
+ 	}
+}
+
+a {
+	
+	text-decoration: none;
+	&:hover{
+	background: white;
+	color: black;
+	}
+}
+
+h1{
+	color: blue;
+	font-style: italics;
+}
